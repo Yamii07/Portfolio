@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="makima.jpg">
+    <link rel="stylesheet" href="my.css">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./pro.css" />
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><i>Purshottam Kumar</i></div>
+            <div class="right">
+                <ul>
+                    <li><a href="#fir">About</a></li>
+                    <li><a href="#sec">Skills</a></li>
+                    <li><a href="#thir">Projects</a></li>
+                    <li><a href="#four">Recommendations</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class=FirstSection id="fir">
+            <div class="leftsec">
+
+                <p class="topic">Hi ,my name is <span class="purple">Purshottam Kumar</span> I’m a passionate software
+                    developer with
+                    a strong foundation in Python, C++, Java, JavaScript, HTML, and CSS. I enjoy problem-solving,
+                    building efficient
+                    algorithms, and developing software solutions that make an impact. My experience includes
+                    working on projects like a student attendance system in C++ and python . With a logical
+                    mindset and attention to detail, I aim to write clean, optimized, and maintainable code.
+                </p>
+            </div>
+            <div class="rightsect">
+                <img
+                    src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-developers-are-coding-programs-on-computers-programmers-are-analyzing-data-png-image_11902650.png">
+            </div>
+        </section>
+        <hr>
+        <section class="secsection" id="sec">
+            <h1>Skills</h1>
+            <div class="skills-container">
+                <div class="skill-box"><i class="fa-brands fa-css3-alt fa-3x"></i>
+                    <p><a href="https://en.wikipedia.org/wiki/CSS" target="_blank">CSS</p></a>
+                </div>
+                <div class="skill-box"><i class="fa-brands fa-html5 fa-3x"></i>
+                    <p><a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML</p></a>
+                </div>
+                <div class="skill-box"><i class="fa-brands fa-js fa-3x"></i>
+                    <p> <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</p></a>
+                </div>
+            </div>
+            <p class="lil">As a software engineer, I possess strong programming skills in Python, Java, C++, and JavaScript. I have expertise in data structures, algorithms, and software development principles. I am proficient in web development (HTML, CSS) and database management. My problem-solving abilities, debugging skills, and teamwork make me an effective developer.</p>
+        </section>
+        <hr>
+        <section class="thirdsection" id="thir">
+            <h1>Projects</h1>
+            <ul>
+                <li>Student Attendance System</li>
+                <li>Portfolio Website</li>
+                <li>Weather App</li>
+            </ul>
+        </section>
+        <hr>
+        <section class="recc" id="four">
+            <h1>Recommendations</h1>
+            <ul id="recList">
+                <li>"Great problem solver!"</li>
+                <li>"Excellent coding skills."</li>
+                <li>"Hardworking and passionate."</li>
+            </ul>
+            <input type="text" id="newRec" placeholder="Add a recommendation">
+            <button onclick="addRecommendation()">Submit</button>
+        </section>
+    </main>
+    <i class="fa-solid fa-house home-icon"></i>
+    
+    <script src="./intro.js" />
+    
+    </main>
+</body>
+
+</html>
